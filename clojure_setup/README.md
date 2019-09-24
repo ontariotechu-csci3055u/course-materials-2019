@@ -2,16 +2,16 @@
 
 This guide goes over how to setup your Clojure environment for this years course. Follow these steps carefully and you will be set for all the activities coding in Clojure. If further assistance or clarification is required email Michael Valdron at [michael.valdron@ontariotechu.net](mailto:michael.valdron@ontariotechu.net).
 
-# Requirements
+## Requirements
 
-## Summary
+### Summary
 
 - Supported Operating Systems: Windows (Subsystem for Linux) and Ubuntu 18.04 LTS (and flavors)
 - Java JDK 1.8+
 - Anaconda (Python 3 Edition)
 - Jupyter Notebook or Jupyter Lab
 
-## Windows Subsystem for Linux (Recommended)
+### Windows Subsystem for Linux (Recommended)
 
 For this years course, we are supporting Windows users who use the Windows Subsystem for Linux with the Ubuntu 18.04 kernel as well as those who use the Ubuntu 18.04 Linux distrobution. If you use Ubuntu 18.04 distrobution you can skip this subsection.
 
@@ -28,11 +28,11 @@ If you are using Windows with the Windows Subsystem for Linux follow these steps
 9. Launching this terminal for the first time will require it to do some initializing which could take some time, during the process it will ask you for a username and password for creating your subsystem user, this user can be given the same credenials as your Windows systems credenials to make things easier however it is not the same user as your Windows user so be mindful when setting this up
 10. Once the initialization is complete you can now open the terminal to use Ubuntu under Windows!
 
-### Note
+#### Note
 
 You can access all Windows directories within the terminal under `/mnt/<drive letter>`, e.g. to access `C:\` you look at `/mnt/c/` directory in the terminal.
 
-## Java JDK
+### Java JDK
 
 Clojure is a language which is built on top of Java, therefore Clojure requires Java in order to run. For the current versions of Clojure it is required to install at least Java JDK 1.8.0.
 
@@ -40,7 +40,7 @@ For those using **Ubuntu or Windows Subsystem for Linux (Ubuntu)** you can insta
 
 `sudo apt-get install default-jdk default-jre`
 
-## Python 3 with Jupyter
+### Python 3 with Jupyter
 
 For this course you will using writing Clojure in Jupyter Notebook using the "Clojupyter" kernel. In order to setup Clojupyter, you will first need both Python 3 and Jupyter Notebook. The steps in this section will assume you are on **Ubuntu or Windows Subsystem for Linux (Ubuntu)**.
 
@@ -58,7 +58,7 @@ You can setup Python 3 and Jupyter Notebook by installing Anaconda in the follow
 
 Clojupyter will work with all methods of setting up Python 3 and Jupyter Notebook so long as it is setup in either **Ubuntu or Windows Subsystem for Linux (Ubuntu)**. All other distributions and operating systems will not be officially supported in this course.
 
-# Clojure 1.10.1
+## Clojure 1.10.1
 
 First we will setup the base clojure interpreter which will be used to run your clojure source code.
 
@@ -69,13 +69,13 @@ First we will setup the base clojure interpreter which will be used to run your 
 5. Place the binary in the location where you can find it, recommended to put it in a directory under `PATH` such as `$HOME/bin/` in linux.
 6. To start your interpreter, run `java -jar clojure-1.10.1.jar`
 
-## rlwrap (Optional)
+### rlwrap (Optional)
 
 For a better interpreter experience, you can optionally install `rlwrap` under Linux or Linux Subsystem within Windows.
 
 To install rlwrap, run this command: `sudo apt-get install rlwrap`
 
-# Clojupyter
+## Clojupyter
 
 Clojupyter is a additional kernel built for Jupyter which gives Jupyter the ability to interpret Clojure code as it typically does for Python. The following steps will show how to install Clojupyter kernel into your local Jupyter.
 
