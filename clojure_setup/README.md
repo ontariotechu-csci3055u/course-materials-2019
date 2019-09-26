@@ -6,11 +6,11 @@ This guide goes over how to setup your Clojure environment for this years course
 
 1. [Requirements](#requirements)
     1. [Summary](#summary)
-    2. [Windows Subsystem for Linux](#windows)
-    3. [Java JDK](#java)
-    4. [Python 3 with Jupyter](#python)
-2. [Clojure 1.10.1](#clojure)
-    1. [rlwrap](#rlwrap)
+    2. [Windows Subsystem for Linux](#windows-subsystem-for-linux-recommended)
+    3. [Java JDK](#java-jdk)
+    4. [Python 3 with Jupyter](#python-3-with-jupyter)
+2. [Clojure 1.10.1](#clojure-1101)
+    1. [rlwrap](#rlwrap-optional)
 3. [Clojupyter](#clojupyter)
 
 ## Requirements
