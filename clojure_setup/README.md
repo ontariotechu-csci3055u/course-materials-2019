@@ -2,6 +2,17 @@
 
 This guide goes over how to setup your Clojure environment for this years course. Follow these steps carefully and you will be set for all the activities coding in Clojure. If further assistance or clarification is required email Michael Valdron at [michael.valdron@ontariotechu.net](mailto:michael.valdron@ontariotechu.net).
 
+## Table of Contents
+
+1. [Requirements](#requirements)
+    1. [Summary](#summary)
+    2. [Windows Subsystem for Linux](#windows)
+    3. [Java JDK](#java)
+    4. [Python 3 with Jupyter](#python)
+2. [Clojure 1.10.1](#clojure)
+    1. [rlwrap](#rlwrap)
+3. [Clojupyter](#clojupyter)
+
 ## Requirements
 
 ### Summary
