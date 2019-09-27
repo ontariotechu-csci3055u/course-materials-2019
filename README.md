@@ -6,6 +6,6 @@ The course material is available at:
 
 http://db.science.uoit.ca/library/teaching/programming-languages
 
-# Content
+## Content
 
 - [Clojure Environment Setup](clojure_setup/README.md)
