@@ -1,6 +1,6 @@
 # Clojure Environment Setup
 
-This guide goes over how to set up your Clojure environment for this year's course. Follow these steps carefully, and you will be set for all the activities coding in Clojure if further assistance or clarification is required to email Michael Valdron at [michael.valdron@ontariotechu.net](mailto:michael.valdron@ontariotechu.net).
+This guide goes over how to set up your Clojure environment for this year's course. Follow these steps carefully, and you will be set for all the activities coding in Clojure. If further assistance or clarification is required to email Michael Valdron at [michael.valdron@ontariotechu.net](mailto:michael.valdron@ontariotechu.net).
 
 ## Table of Contents
 
