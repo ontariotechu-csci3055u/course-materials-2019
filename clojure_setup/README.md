@@ -10,7 +10,6 @@ This guide goes over how to set up your Clojure environment for this year's cour
     3. [Java JDK](#java-jdk)
     4. [Python 3 with Jupyter](#python-3-with-jupyter)
 2. [Clojure 1.10.1](#clojure-1101)
-    1. [rlwrap](#rlwrap-optional)
 3. [Clojupyter](#clojupyter)
 
 ## Requirements
