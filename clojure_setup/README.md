@@ -10,6 +10,7 @@ This guide goes over how to set up your Clojure environment for this year's cour
     3. [Java JDK](#java-jdk)
     4. [Python 3 with Jupyter](#python-3-with-jupyter)
 2. [Clojure 1.10.1](#clojure-1101)
+    1. [rlwrap (Optional)](#rlwrap-optional)
 3. [Clojupyter](#clojupyter)
 
 ## Requirements
@@ -83,6 +84,12 @@ sudo ./linux-install-1.10.1.469.sh
 ```
 
 You can download the install script from [here](https://download.clojure.org/install/linux-install-1.10.1.469.sh) in case you do not have curl.
+
+### rlwrap (Optional)
+
+For a better interpreter experience, you can optionally install `rlwrap` under Linux or Linux Subsystem within Windows.
+
+To install rlwrap, run this command: `sudo apt-get install rlwrap`
 
 ## Clojupyter
 
