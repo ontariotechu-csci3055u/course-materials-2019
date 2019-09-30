@@ -2,6 +2,10 @@
 
 This guide goes over how to set up your Clojure environment for this year's course. Follow these steps carefully, and you will be set for all the activities coding in Clojure. If further assistance or clarification is required to email Michael Valdron at [michael.valdron@ontariotechu.net](mailto:michael.valdron@ontariotechu.net).
 
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQKq8cYhOQgagxzhrtEV5_wo_2gM_xDe7JItUCUfPzGuZq56-CGxAnt8pYnjt-XwTx9-Q6z9zAdb6PG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Table of Contents
 
 1. [Requirements](#requirements)
@@ -84,12 +88,6 @@ sudo ./linux-install-1.10.1.469.sh
 ```
 
 You can download the install script from [here](https://download.clojure.org/install/linux-install-1.10.1.469.sh) in case you do not have curl.
-
-### rlwrap (Optional)
-
-For a better interpreter experience, you can optionally install `rlwrap` under Linux or Linux Subsystem within Windows.
-
-To install rlwrap, run this command: `sudo apt-get install rlwrap`
 
 ## Clojupyter
 
