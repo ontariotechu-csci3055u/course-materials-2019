@@ -1,10 +1,6 @@
 # Clojure Environment Setup
 
-This guide goes over how to set up your Clojure environment for this year's course. Follow these steps carefully, and you will be set for all the activities coding in Clojure. If further assistance or clarification is required to email Michael Valdron at [michael.valdron@ontariotechu.net](mailto:michael.valdron@ontariotechu.net).
-
-## Slides
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQKq8cYhOQgagxzhrtEV5_wo_2gM_xDe7JItUCUfPzGuZq56-CGxAnt8pYnjt-XwTx9-Q6z9zAdb6PG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+This guide goes over how to set up your Clojure environment for this year's course. Follow these steps carefully, and you will be set for all the activities coding in Clojure. You can access the slides [here](https://docs.google.com/presentation/d/1TK3bQAyY2JUKf6q-tOQp8jzWrwSVu-e-MmXIEJKBO-4/edit?usp=sharing). If further assistance or clarification is required to email Michael Valdron at [michael.valdron@ontariotechu.net](mailto:michael.valdron@ontariotechu.net).
 
 ## Table of Contents
 
