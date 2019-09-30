@@ -90,8 +90,10 @@ You can setup Python 3 and Jupyter Notebook by installing Anaconda in the follow
 
 ![](img/conda_init.png)
 
-8. Once the installation is complete, you can now use Anaconda to install Jupyter within a Python 3 environment. Optionally you can either create an environment for this course or just use the base environment. You can create anaconda environments by running `conda create -n <env_name> python=<python_version>`, then using `conda activate <env_name>` to activate your environment. If you are going to the base environment, skip the last step
+8. Once the installation is complete, you can now use Anaconda to install Jupyter within a Python 3 environment. Optionally you can either create an environment for this course or just use the base environment. You can create anaconda environments by running `conda create -n <env_name> python=<python_version>`, then using `conda activate <env_name>` to activate your environment. If you are going to use the base environment, skip the last step
 9. Once you are in the anaconda environment of your choosing, run `conda install -c anaconda jupyter` to install Jupyter Notebook
+
+**Note**: If you are using **Windows Subsystem for Linux** you will have to copy the URLs from the console to the web browser to open Jupyter.
 
 Clojupyter will work with all methods of setting up Python 3 and Jupyter Notebook so long as it is set up in either **Ubuntu or Windows Subsystem for Linux (Ubuntu)**. All other distributions and operating systems will not be officially supported in this course.
 
@@ -114,6 +116,8 @@ You can download the install script from [here](https://download.clojure.org/ins
 For a better interpreter experience, you can optionally install `rlwrap` under Linux or Linux Subsystem within Windows.
 
 To install rlwrap, run this command: `sudo apt-get install rlwrap`
+
+To use Clojure without `rlwrap` type `clojure`, to use Clojure with `rlwrap` type `clj`.
 
 ## Clojupyter
 
