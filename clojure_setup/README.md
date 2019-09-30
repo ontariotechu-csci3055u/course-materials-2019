@@ -41,6 +41,7 @@ If you are using Windows with the Windows Subsystem for Linux, follow these step
 7. If the install option is shown, click it to install the Subsystem kernel, if it already shows launch this means everything is already installed and you can just skip the remaining steps
 8. Once Ubuntu 18.04 LTS terminal is installed, you can find it in your start menu
 9. Launching this terminal for the first time will require it to do some initializing which could take some time, during the process it will ask you for a username and password for creating your subsystem user, this user can be given the same credentials as your Windows systems credentials to make things easier however it is not the same user as your Windows user so be mindful when setting this up
+
 ![](img/user_pass.png)
 10. Once the initialization is complete, you can now open the terminal to use Ubuntu under Windows!
 
@@ -73,6 +74,7 @@ You can setup Python 3 and Jupyter Notebook by installing Anaconda in the follow
 6. When it asks where to install Anaconda you can just hit enter, and it will install it to ~/anaconda3, this is fine
 ![](img/anaconda_install_dir.png)
 7. Once it is finished extracting all the base packages into the installation directory (This will take some time), type yes when prompted to init conda, this is important because it will activate the base environment by default anytime the terminal is launched which allows for anaconda commands to be accessed, if you say no you will need to manually link the desired conda binaries to the `PATH`
+![](img/conda_init.png)
 8. Once the installation is complete, you can now use Anaconda to install Jupyter within a Python 3 environment. Optionally you can either create an environment for this course or just use the base environment. You can create anaconda environments by running `conda create -n <env_name> python=<python_version>`, then using `conda activate <env_name>` to activate your environment. If you are going to the base environment, skip the last step
 9. Once you are in the anaconda environment of your choosing, run `conda install -c anaconda jupyter` to install Jupyter Notebook
 
