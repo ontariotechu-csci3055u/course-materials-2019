@@ -9,3 +9,7 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 ## Content
 
 - [Clojure Environment Setup](clojure_setup/README.md)
+
+## Quizzes
+
+- Turing Machine: https://forms.gle/oeoH3eHS8r99WaDm9
