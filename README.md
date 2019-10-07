@@ -13,3 +13,4 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 ## Quizzes
 
 - Turing Machine: https://forms.gle/oeoH3eHS8r99WaDm9
+- Lambda Calculus: https://forms.gle/Yus1aShsYMt1qPj27
