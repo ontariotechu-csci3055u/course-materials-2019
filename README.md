@@ -10,6 +10,10 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 
 - [Clojure Environment Setup](clojure_setup/README.md)
 
+## Assignments
+
+1. https://classroom.github.com/a/iZZL9DtH
+
 ## Quizzes
 
 - Turing Machine: https://forms.gle/oeoH3eHS8r99WaDm9
