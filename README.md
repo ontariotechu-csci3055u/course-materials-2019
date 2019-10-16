@@ -14,7 +14,7 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 
 1. Newton's method with Clojure in Jupyter notebook: https://classroom.github.com/a/iZZL9DtH
   
-    **Due date: October 27, 2019**
+    **Due date: November 3, 2019**
 
 ## Quizzes
 
