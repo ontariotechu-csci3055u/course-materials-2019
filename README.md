@@ -27,3 +27,4 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 - Lambda Calculus: https://forms.gle/Yus1aShsYMt1qPj27
 - Clojure Expressions: https://forms.gle/mTu3m7RyGJGzdTr78
 - Basic programming in Clojure: https://forms.gle/PW8yk2brnmVrv1577 **Single attempt only**
+- Sequences in Clojure: https://forms.gle/oMCGuBzcmPZnFR4o9 **Single attempt only**
