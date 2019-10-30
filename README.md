@@ -26,4 +26,4 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 - Turing Machine: https://forms.gle/oeoH3eHS8r99WaDm9
 - Lambda Calculus: https://forms.gle/Yus1aShsYMt1qPj27
 - Clojure Expressions: https://forms.gle/mTu3m7RyGJGzdTr78
-- Basic programming in Clojure: https://forms.gle/PW8yk2brnmVrv1577
+- Basic programming in Clojure: https://forms.gle/PW8yk2brnmVrv1577 **Single attempt only**
