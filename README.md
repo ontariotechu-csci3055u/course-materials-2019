@@ -8,7 +8,7 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 
 ## Content
 
-- [Clojure Environment Setup](clojure_setup/README.md)
+- [Clojure Environment Setup](clojure-setup/README.md)
 - [Clojure Sample Code](sample-code/csci3055u-2019-10-21.ipynb)
 
 ## Assignments
