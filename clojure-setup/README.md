@@ -12,6 +12,8 @@ This guide goes over how to set up your Clojure environment for this year's cour
 2. [Clojure 1.10.1](#clojure-1101)
     1. [rlwrap (Optional)](#rlwrap-optional)
 3. [Clojupyter](#clojupyter)
+    1. [From Provided ZIP](#from-provided-zip)
+    2. [Anaconda](#anaconda)
 
 ## Requirements
 
