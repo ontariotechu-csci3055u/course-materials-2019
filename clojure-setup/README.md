@@ -121,6 +121,23 @@ To use Clojure without `rlwrap` type `clojure`, to use Clojure with `rlwrap` typ
 
 ## Clojupyter
 
+### From Provided ZIP
+
+As of November 3, 2019, Clojupyter 0.2.3 install kernel procedure in both Anaconda and Leiningen installs are broken, making it impossible to install this version of the kernel from scratch. Because of this, we are providing a packaged kernel to those who have not completed this process earlier.
+
+The package can be downloaded from [here](). Follow to steps below to unpackage into your environment:
+
+1. `wget https://github.com/ontariotechu-csci3055u/course-materials-2019/raw/master/clojure-setup/downloads/kernel.zip`
+2. `unzip kernel.zip`
+3. `mv kernel ~/anaconda3/share/jupyter/kernels/<name>`
+4. Edit `kernel.json` and fill in the appropriate information
+    1. `<name>` - The name you want to give the Jupyter kernel
+    2. `<path to this dir>` - The base path of the kernel directory, i.e. where your clojupyter-standalone.jar, kernel.json, and logo.png is located.
+
+Once you have completed all these steps correctly, you should be able to use the Clojupyter 0.2.3 kernel in Jupyter Notebook and Lab.
+
+### Anaconda
+
 Clojupyter is an additional kernel built for Jupyter which gives Jupyter the ability to interpret Clojure code as it typically does for Python. The following steps will show how to install Clojupyter kernel into your local Jupyter.
 
 Activate the environment you desire to use then run: `conda install -c simplect clojupyter`
