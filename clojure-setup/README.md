@@ -132,7 +132,7 @@ The package can be downloaded from [here](). Follow to steps below to unpackage 
 3. `mv kernel ~/anaconda3/share/jupyter/kernels/<name>`
 4. Edit `kernel.json` and fill in the appropriate information
     1. `<name>` - The name you want to give the Jupyter kernel
-    2. `<path to this dir>` - The base path of the kernel directory, i.e. where your clojupyter-standalone.jar, kernel.json, and logo.png is located.
+    2. `<path to this dir>` - The base path of the kernel directory, i.e. where your clojupyter-standalone.jar, kernel.json, and logo.png are located.
 
 Once you have completed all these steps correctly, you should be able to use the Clojupyter 0.2.3 kernel in Jupyter Notebook and Lab.
 
