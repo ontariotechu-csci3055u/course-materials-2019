@@ -127,7 +127,7 @@ To use Clojure without `rlwrap` type `clojure`, to use Clojure with `rlwrap` typ
 
 As of November 3, 2019, Clojupyter 0.2.3 install kernel procedure in both Anaconda and Leiningen installs are broken, making it impossible to install this version of the kernel from scratch. Because of this, we are providing a packaged kernel to those who have not completed this process earlier.
 
-The package can be downloaded from [here](). Follow to steps below to unpackage into your environment:
+The package can be downloaded from [here](https://github.com/ontariotechu-csci3055u/course-materials-2019/blob/master/clojure-setup/downloads/kernel.zip). Follow to steps below to unpackage into your environment:
 
 1. `wget https://github.com/ontariotechu-csci3055u/course-materials-2019/raw/master/clojure-setup/downloads/kernel.zip`
 2. `unzip kernel.zip`
