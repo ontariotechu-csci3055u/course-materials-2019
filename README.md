@@ -21,6 +21,10 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 
     **Due date: November 17th, 2019**
     
+3. Scala programming: https://classroom.github.com/a/Z87GBYK4
+
+    **Due date: December 8th**
+    
 ## Quizzes
 
 - Turing Machine: https://forms.gle/oeoH3eHS8r99WaDm9
