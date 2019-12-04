@@ -17,7 +17,7 @@ http://db.science.uoit.ca/library/teaching/programming-languages
   
     **Due date: November ~~3~~ 10th (revised), 2019**
 
-2. Analysis of Canadian cities using Clojure: https://classroom.github.com/a/R-oy-Kcc
+2. Analysis of Canadian cities using Clojure: https://classroom.github.com/a/R-oy-Kcc ([Solution](solutions/assignment_2))
 
     **Due date: November 17th, 2019**
     
