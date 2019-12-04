@@ -18,36 +18,36 @@
   (try
     (cond
       (string? x) (Double/parseDouble x)
-      (float? x) (double x)
-      :default x)
+      (float? x) x
+      :default nil)
     (catch NumberFormatException e
-      x)))
+      (println (.getMessage e)))))
 
 (defn parse-int [x]
   (try
     (cond
       (string? x) (Long/parseLong x)
-      (integer? x) (long x)
-      :default x)
+      (integer? x) x
+      :default nil)
     (catch NumberFormatException e
-      x)))
+      (println (.getMessage e)))))
 
 (defn parse-record [line]
-  (-> (zipmap [:name :lat :long :country]
-              (subvec line 0 4))
-      (assoc :province (get line 5))
-      (assoc :pop (get line 7))))
+  (let [line-vec (string/split line #",")]
+    (-> (subvec line-vec 0 4)
+        (#(zipmap [:name :lat :long :country] %))
+        (assoc :province (get line-vec 5))
+        (assoc :pop (get line-vec 7)))))
 
 (defn cities []
-  (let [sep-fn #(string/split % #",")
-        parse-ints #(mapv parse-int %)
-        parse-floats #(mapv parse-float %)]
+  (let [parse-int-by-key #(update %2 %1 parse-int)
+        parse-float-by-key #(update %2 %1 parse-float)]
     (with-open [r (reader)]
       (->> (reduce conj [] (rest (line-seq r)))
-           (mapv sep-fn)
-           (mapv parse-ints)
-           (mapv parse-floats)
-           (mapv parse-record)))))
+           (mapv parse-record)
+           (mapv (partial parse-int-by-key :pop))
+           (mapv (partial parse-float-by-key :lat))
+           (mapv (partial parse-float-by-key :long))))))
 
 (defn city [name]
   (->> (cities)
