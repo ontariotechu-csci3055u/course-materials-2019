@@ -32,3 +32,7 @@ http://db.science.uoit.ca/library/teaching/programming-languages
 - Clojure Expressions: https://forms.gle/mTu3m7RyGJGzdTr78
 - Basic programming in Clojure: https://forms.gle/PW8yk2brnmVrv1577 **Single attempt only**
 - Sequences in Clojure: https://forms.gle/oMCGuBzcmPZnFR4o9 **Single attempt only**
+
+## Solutions
+2. [Analysis of Canadian cities using Clojure](solutions/assignment_2)
+3. [Scala programming](solutions/assignment_3)
